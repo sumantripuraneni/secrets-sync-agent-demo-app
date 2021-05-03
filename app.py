@@ -32,13 +32,8 @@ def hello():
 
             Mount path to read secrets: {}
 
-            Extracting secrets..
-
-            Username: {}
-            Password: {}
-
             Content: {}
-            </xmp>""".format(mount_path_to_read_secrets, rdata['data']['username'],rdata['data']['password'],rdata)
+            </xmp>""".format(mount_path_to_read_secrets, rdata)
 
 
 if __name__ == "__main__":
